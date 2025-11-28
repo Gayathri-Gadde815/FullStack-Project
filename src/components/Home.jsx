@@ -6,6 +6,7 @@ import NgoRegistration from "./NgoRegistration.jsx"
 import NgoList from "./NgoList.jsx"
 import DonorForm from "./DonorForm.jsx";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -19,8 +20,8 @@ function Home() {
           </div>
           <p>Connecting food donors with NGOs to reduce hunger and waste.</p>
           <div className="hero-buttons">
-            <a href="/DonorForm" className="btn">Donate Food</a>
-            <a href="/NgoRegistration" className="btn secondary">NGO Login/Register</a>
+            <Link to="/DonorForm" className="btn">Donate Food</Link>
+            <Link to="/NgoRegistration" className="btn secondary">NGO Login/Register</Link>
           </div>
         </div>
       </section>
