@@ -24,5 +24,43 @@
       "password": "helpinghands",
       "established": "2018-08-22"
     }
+  ],
+  "donations": [
+    {
+      "id": "c08f",
+      "donorName": "Person 1",
+      "quantity": "Rice(5Kg),Curries",
+      "state": "Andhra Pradesh",
+      "district": "Guntur",
+      "expiry": "2025-11-20T19:00",
+      "contact": "9087654321"
+    },
+    {
+      "id": "9f10",
+      "donorName": "Ravi",
+      "quantity": "Rice(10 Kg),5 Curries",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "expiry": "2025-11-21T08:59",
+      "contact": "9087654321"
+    },
+    {
+      "id": "3034",
+      "donorName": "Ravi",
+      "quantity": "Rice 5(KG),Curries(5)",
+      "state": "Andhra Pradesh",
+      "district": "Sri Potti Sriramulu Nellore",
+      "expiry": "2025-11-28T06:23",
+      "contact": "9012345678"
+    },
+    {
+      "id": "a279",
+      "donorName": "Me",
+      "quantity": "Rice 5(kg),Curries 5 types",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "expiry": "2025-11-28T05:31",
+      "contact": "8769054312"
+    }
   ]
 }
