@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import axios from "axios";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
+import { useNavigate } from "react-router-dom";
 import"./NgoLogin.css";
 
 function NgoLogin() {
   const API = "https://fullstack-project-vdtp.onrender.com/ngos";
 
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "",
     password: ""
@@ -42,7 +44,7 @@ function NgoLogin() {
           localStorage.setItem("password", formData.password);
 
           setMessage("✅ Login Successful!");
-          window.location.href = "/NgoProfile"; // make sure route matches
+          navigate("/NgoProfile");   // make sure route matches
         } else {
           setMessage("❌ Invalid Email or Password");
         }
