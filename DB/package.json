@@ -1,8 +1,8 @@
 {
-  "name": "foodbridge-backend",
+  "name": "foodbridge-json-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000"
+    "start": "json-server --watch db.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.0"
