@@ -5,7 +5,7 @@ import Footer from "./Footer.jsx";
 import"./NgoLogin.css";
 
 function NgoLogin() {
-  const API = "http://localhost:3000/ngos";
+  const API = "https://foodbridge-json-api.onrender.com/ngos";
 
   const [formData, setFormData] = useState({
     email: "",

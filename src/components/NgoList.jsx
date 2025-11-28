@@ -7,7 +7,7 @@ function NgoList() {
   const [ngos, setNgos] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API = "http://localhost:3000/ngos";
+  const API = "https://foodbridge-json-api.onrender.com/ngos";
 
   useEffect(() => {
     axios.get(API)

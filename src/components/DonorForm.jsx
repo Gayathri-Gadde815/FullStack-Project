@@ -23,7 +23,7 @@ const districtOptions = {
 };
 
 function DonorForm() {
-  const API = "http://localhost:3000/donations";
+  const API = "https://foodbridge-json-api.onrender.com/donations";
 
   const [state, setState] = useState("");
   const [districts, setDistricts] = useState([]);
