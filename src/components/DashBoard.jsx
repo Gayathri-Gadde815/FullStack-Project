@@ -17,7 +17,7 @@ const toggleMenu = () => {
 
   useEffect(() => {
     // Fetch donations from server
-    axios.get("https://foodbridge-json-api.onrender.com/donations")
+    axios.get("https://fullstack-project-vdtp.onrender.com/donations")
       .then((res) => {
         setDonations(res.data);
         setLoading(false);

@@ -8,7 +8,7 @@ import DashBoard from "./DashBoard.jsx"
 function NgoProfile() {
   const [menuActive, setMenuActive] = useState(false);
 
-  const API = "https://foodbridge-json-api.onrender.com/ngos"; 
+  const API = "https://fullstack-project-vdtp.onrender.com/ngos"; 
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
 

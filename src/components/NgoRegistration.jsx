@@ -25,7 +25,7 @@ const districtOptions = {
 };
 
 function NgoRegistration() {
-  const API = "https://foodbridge-json-api.onrender.com/ngos"
+  const API = "https://fullstack-project-vdtp.onrender.com/ngos"
 
   const [state, setState] = useState("");
   const [districts, setDistricts] = useState([])
