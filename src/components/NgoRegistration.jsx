@@ -142,7 +142,7 @@ function NgoRegistration() {
         </form>
 
         <p className="text-center mt-4">
-          Already registered? <a href="/NgoLogin">Login here</a>
+          Already registered? <Link to="/NgoLogin">Login here</Link>
         </p>
       </section>
 
