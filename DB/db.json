@@ -1,0 +1,28 @@
+{
+  "ngos": [
+    {
+      "id": "f1fd",
+      "name": "Cry For You",
+      "state": "Andhra Pradesh",
+      "district": "East Godavari",
+      "area": "Jaggampeta",
+      "pincode": "533435",
+      "contact": "9876543210",
+      "email": "cryforyou@gmail.com",
+      "password": "password",
+      "established": "2016-06-12"
+    },
+    {
+      "id": "cb82",
+      "name": "Helping Hands",
+      "state": "Telangana",
+      "district": "Mancherial",
+      "area": "Gachiboli",
+      "pincode": "544088",
+      "contact": "7890654321",
+      "email": "helpinghands@gmail.com",
+      "password": "helpinghands",
+      "established": "2018-08-22"
+    }
+  ]
+}

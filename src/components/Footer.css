@@ -1,0 +1,32 @@
+footer {
+  padding: 20px 0;
+  border-top: 1px solid #e5e5e5;
+}
+body {
+  background-color:#F5FFF5; /* your website background color */
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer ul li a:hover {
+  color: #28a745;
+}
+
+footer p {
+  text-align: center;
+  color: #777;
+  margin: 0;
+}

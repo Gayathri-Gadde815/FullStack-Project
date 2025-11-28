@@ -1,0 +1,13 @@
+.how-img {
+      width: 100%;
+      max-width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin: auto;
+    }
+
+    
+p{
+  color:black
+}

@@ -1,0 +1,60 @@
+/* Container section */
+.form-section {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Form box */
+.form-section form {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Input + Select fields */
+.form-section input,
+.form-section select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #fafafa;
+  transition: 0.25s ease-in-out;
+}
+
+/* Hover + Focus highlight */
+.form-section input:focus,
+.form-section select:focus {
+  border-color: #28a745;
+  background-color: #ffffff;
+  outline: none;
+}
+
+/* Submit Button */
+.form-section button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.form-section button:hover {
+  background-color: #218838;
+}
+
+/* Response message */
+#responseMsg {
+  text-align: center;
+  margin-top: 12px;
+  font-weight: 500;
+}
